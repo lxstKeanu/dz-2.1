@@ -1,0 +1,37 @@
+.news__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.news__main-cards{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 16px;
+  width: 360px;
+  margin: 16px;
+}
+
+.news__main-title{
+  color: green;
+  align-self: center;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.news__main-content{
+  color: blue;
+}
+.news__main-date{
+  color: rebeccapurple;
+}
+.news__main-photo{
+  width: 100%;
+  object-fit: cover;
+}
+.news__main-link{
+  text-decoration: none;
+  color: red;
+}
